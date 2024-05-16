@@ -7,6 +7,7 @@ const state = reactive({ count: 0 });
 let dummy;
 debugger
 watchEffect(() => {
+    console.log(1111);
     dummy = state.count;
 });
 
